@@ -1,0 +1,26 @@
+.story{
+  margin-bottom: 39px;
+  &__subtitle{
+    @include text(13px, 21px, #000 );
+    display: block;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin: 44px 0 121px;
+  }
+  &__design{
+    text-align: center;
+    background: #9AA8B1;
+    padding: 120px 0;
+    &-title{
+      @include text(43px, 58px, #FFF );
+      text-align: center;
+      margin: 23px 0 ;
+    }
+    &-subtitle{
+      @include text(14px, 24px, #FFF );
+      letter-spacing: 0.8px;
+    }
+  }
+
+}

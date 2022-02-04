@@ -1,0 +1,20 @@
+.footer{
+  &__nav{
+    display: flex;
+    justify-content: flex-end;
+    margin: 84px 0 28px;
+  }
+  &__list{
+    display: flex;
+    column-gap: 38px;
+    cursor: pointer;
+    &-item{
+      @include text(13px, 15px, #707A7F );
+      letter-spacing: 0.8px;
+      &.active{
+        color: #000000;
+      }
+    }
+  }
+
+}

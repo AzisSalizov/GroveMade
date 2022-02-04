@@ -1,0 +1,16 @@
+.work{
+  margin-bottom: 124px;
+  &__subtitle{
+    margin: 23px 0 79px;
+  }
+  &__row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 100%;
+    &-img{
+      width: calc(16.6666% - 20.8333px);
+    }
+  }
+
+}

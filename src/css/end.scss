@@ -1,0 +1,43 @@
+.end{
+  &__top{
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 82px;
+    height: 82px;
+    background-color: #000000;
+    @include text(15px, 16px, #FFF );
+    letter-spacing: 0.8px;
+  }
+  &__nav{
+    display: flex;
+  }
+  &__menu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    &-link{
+      @include text(22px, 24px, #000 );
+    }
+  }
+  &__signup{
+    margin-left: 23.5px;
+    &-title{
+      @include text(22px, 24px, #000 );
+    }
+    &-subtitle{
+      @include text(14px, 16px, #A0A0A0 );
+      letter-spacing: 0.8px;
+      margin: 23px 0 81px;
+    }
+    &-email{
+      width: 320px;
+      border: none;
+      border-bottom: 1px solid black;
+    }
+  }
+}
